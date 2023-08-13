@@ -2,8 +2,8 @@
 
 
 def divisible_by_2(my_list=[]):
-    l = []
+    lst = []
     for i in my_list:
-        l.append(not(bool(i % 2)))
+        lst.append(not (bool(i % 2)))
 
-    return (l)
+    return (lst)
