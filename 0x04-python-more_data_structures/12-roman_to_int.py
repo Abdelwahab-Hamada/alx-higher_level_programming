@@ -10,6 +10,8 @@ def roman_to_int(roman_string):
     for char in roman_string[1:]:
         if result < rom_int.get(char):
             result -= rom_int.get(char)
+            result = abs(result)
+            continue
         result += rom_int.get(char)
 
     return result
