@@ -10,3 +10,4 @@ if __name__ == "__main__":
 
     req = requests.get(url)
     print(req.headers.get("X-Request-Id"))
+    
