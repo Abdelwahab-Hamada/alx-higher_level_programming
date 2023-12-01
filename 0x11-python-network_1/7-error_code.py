@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Print response or error 
+"""Print response or error
 """
 import sys
 import requests
